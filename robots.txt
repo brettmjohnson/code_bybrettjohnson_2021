@@ -2,4 +2,5 @@
 
 # Allow crawling of all content
 User-agent: *
-Disallow:
+Disallow: /pdf/ # Block the /pdfs/directory.
+Disallow: *.pdf  # Block pdf files. Non-standard but works for major search engines.
